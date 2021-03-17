@@ -1,4 +1,4 @@
-# **NOMBRE:**________________________________________________________
+# **NOMBRE:**_____________________________________
 
 # **Ejercicio-Comprensión de Programas**
 **VideoStore** es una App Java desarrollada para gestionar el Punto de Venta de una tienda de renta de Videos.
@@ -16,6 +16,12 @@ Utilice las herramientas y técnicas estudiadas para dar mantenimiento a esta ap
 
 ## TIPS:
 * Cargue su App en **GitPod** para llevar a cabo los cambios correspondientes para la eliminación de defectos.
+* Pruebe sus correcciones ejecutando las pruebas unitarias con el comando:
+
+```
+gradle test
+```
+
 * Por cada cambio importante que haga, actualice su historia usando los comandos:
 
 ```
