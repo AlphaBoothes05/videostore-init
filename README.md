@@ -13,9 +13,16 @@ Se les ha encomendado la tarea de detectar y corregir los mismos y verificar su 
 Utilice las herramientas y técnicas estudiadas para dar mantenimiento a esta aplicación
 
 ## TIPS:
-* Cargue su App en GitPod para llevar a cabo los cambios correspondientes para la eliminación de defectos.
+* Cargue su App en **GitPod** para llevar a cabo los cambios correspondientes para la eliminación de defectos.
 * Por cada cambio importante que haga, actualice su historia usando los comandos:
-- **git add .**
-- **git commit -m "Descripción del cambio"**
-* Envíe a revisión al sistema de **Autograding** con el comando:
-- **git push origin main**
+
+```
+git add .
+git commit -m "Descripción del cambio"
+```
+
+* Envíe a revisión al sistema de **Autograding** de Github con el comando:
+
+```
+git push origin main
+```
