@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "",
+      "run": "gradle test --tests wsVideoStore.VideoStoreTest.testSingleNewReleaseStatement",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "test2",
+      "setup": "",
+      "run": "gradle test --tests wsVideoStore.VideoStoreTest.testDualNewReleaseStatement",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "test3",
+      "setup": "",
+      "run": "gradle test --tests wsVideoStore.VideoStoreTest.testSingleChildrensStatement",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "test4",
+      "setup": "",
+      "run": " gradle test --tests wsVideoStore.VideoStoreTest.testMultipleRegularStatement",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "test5",
+      "setup": "",
+      "run": "gradle test --tests wsVideoStore.VideoStoreTest.testRentalStatementFormat",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
