@@ -1,4 +1,4 @@
-
+package wsVideoStore;
 public class Rental
 {
   private Movie movie;
@@ -13,6 +13,12 @@ public class Rental
     return movie.getTitle();
   }
 
+  public Movie getMovie(){
+    return movie;
+  }
+  public int getDaysRented(){
+    return daysRented;
+  }
   public double determineAmount() {
     return movie.determineAmount(daysRented);
   }
